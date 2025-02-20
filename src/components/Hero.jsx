@@ -9,7 +9,7 @@ const Hero = () => {
           <h1 className="hero-name">Mary Joy Sanguila</h1>
           <h2 className="hero-title">Web Developer</h2>
           <p className="hero-description">
-            Crafting exceptional digital experiences with modern web technologies and creative design solutions. Turning complex problems into elegant, intuitive interfaces.
+            Creating exceptional digital experiences with modern web technologies and creative design solutions. Turning complex problems into elegant, intuitive interfaces.
           </p>
           <div className="hero-cta">
             <button className="primary-btn">View Portfolio</button>
