@@ -1,52 +1,74 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faJs, faHtml5, faNodeJs, faGitAlt } from '@fortawesome/free-brands-svg-icons';
-import { faDatabase, faMobile, faPaintBrush } from '@fortawesome/free-solid-svg-icons';
+import { faJs, faHtml5, faBootstrap, faPhp, faGitAlt, faCss3, faReact } from '@fortawesome/free-brands-svg-icons';
+import { faDatabase, faCode, faUserGraduate, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 const About = () => {
     return (
-      <section className="about">
+      <section className="experience-page">
         <h2 className="section-title">About Me</h2>
-        <div className="about-content">
-          <div className="skills">
-            <h3>Technical Skills</h3>
-            <div className="skill-tags">
-              <span className="skill-tag">
-                <FontAwesomeIcon icon={faReact} /> React.js
-              </span>
-              <span className="skill-tag">
-                <FontAwesomeIcon icon={faJs} /> JavaScript (ES6+)
-              </span>
-              <span className="skill-tag">
-                <FontAwesomeIcon icon={faHtml5} /> HTML5 & CSS3
-              </span>
-              <span className="skill-tag">
-                <FontAwesomeIcon icon={faNodeJs} /> Node.js
-              </span>
-              <span className="skill-tag">
-                <FontAwesomeIcon icon={faDatabase} /> MongoDB
-              </span>
-              <span className="skill-tag">
-                <FontAwesomeIcon icon={faGitAlt} /> Git
-              </span>
-              <span className="skill-tag">
-                <FontAwesomeIcon icon={faMobile} /> Responsive Design
-              </span>
-              <span className="skill-tag">
-                <FontAwesomeIcon icon={faPaintBrush} /> UI/UX Design
-              </span>
+        
+        <div className="experience-container">
+          <div className="experience-section">
+            <h3 className="experience-section-title">
+              <FontAwesomeIcon icon={faInfoCircle} /> Profile
+            </h3>
+            
+            <div className="timeline">
+              <div className="timeline-item">
+                <div className="timeline-dot"></div>
+                <div className="timeline-content">
+                  <p>
+                    I am a passionate web developer with expertise in front-end and back-end technologies.
+                    My goal is to create efficient, user-friendly applications that solve real-world problems.
+                    I enjoy learning new technologies and applying them to innovative projects.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="experience">
-            <h3>Experience</h3>
-            <div className="experience-card">
-              <span className="experience-year">2020 - Present</span>
-              <h4>Senior Frontend Developer</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+          
+          <div className="experience-section">
+            <h3 className="experience-section-title">
+              <FontAwesomeIcon icon={faCode} /> Technical Skills
+            </h3>
+            
+            <div className="timeline">
+              <div className="timeline-item">
+                <div className="timeline-dot"></div>
+                <div className="timeline-content">
+                  <div className="timeline-skills">
+                    <span><FontAwesomeIcon icon={faHtml5} /> HTML</span>
+                    <span><FontAwesomeIcon icon={faCss3} /> CSS</span>
+                    <span><FontAwesomeIcon icon={faJs} /> JavaScript</span>
+                    <span><FontAwesomeIcon icon={faReact} /> React</span>
+                    <span><FontAwesomeIcon icon={faBootstrap} /> Bootstrap</span>
+                    <span><FontAwesomeIcon icon={faDatabase} /> MySQL</span>
+                    <span><FontAwesomeIcon icon={faPhp} /> PHP</span>
+                    <span><FontAwesomeIcon icon={faGitAlt} /> Git</span>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="experience-card">
-              <span className="experience-year">2018 - 2020</span>
-              <h4>Web Developer</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras porttitor metus justo, ut fringilla felis pharetra quis.</p>
+          </div>
+          
+          <div className="experience-section">
+            <h3 className="experience-section-title">
+              <FontAwesomeIcon icon={faUserGraduate} /> Education
+            </h3>
+            
+            <div className="timeline">
+              <div className="timeline-item">
+                <div className="timeline-dot"></div>
+                <div className="timeline-content">
+                  <h4>Bachelor of Science in Information Technology</h4>
+                  <h5>Western Mindanao State University</h5>
+                  <span className="timeline-date">2020 - Present</span>
+                  <p>
+                    Focusing on software development, web technologies, and information systems.
+                    Relevant coursework includes programming, database management, web development, and system analysis.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
