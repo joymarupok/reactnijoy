@@ -17,6 +17,7 @@
           <Link to="/about" className="nav-link" onClick={closeMenu}>About</Link>
           <Link to="/experience" className="nav-link" onClick={closeMenu}>Experience</Link>
           <Link to="/projects" className="nav-link" onClick={closeMenu}>Projects</Link>
+          <Link to="/certificate" className="nav-link" onClick={closeMenu}>Certificates</Link>
           <Link to="/blog" className="nav-link" onClick={closeMenu}>Blog</Link>
           <Link to="/contact" className="nav-link" onClick={closeMenu}>Contact</Link>
         </div>
