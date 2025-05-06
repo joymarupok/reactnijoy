@@ -7,7 +7,7 @@ const Certificate = () => {
       title: "Certificate 1",
       issuer: "LinkedIn Learning",
       date: "May 2023",
-      image: "/certificates/react-design-patterns.jpg",
+      image: "/cert1.jpeg",
       credentialId: "61044edec468a4583b99186077d505e51d9db80c968b41ca98c02f86dd18151e",
       url: "https://www.linkedin.com/learning/certificates/61044edec468a4583b99186077d505e51d9db80c968b41ca98c02f86dd18151e"
     },
@@ -16,7 +16,7 @@ const Certificate = () => {
       title: "Certificate 2",
       issuer: "LinkedIn Learning",
       date: "April 2023",
-      image: "/certificates/javascript-patterns.jpg",
+      image: "/cert2.jpeg",
       credentialId: "ceebd8bddc157bc772f3c0d83c4996e25291b9498be71fc31077745234c5020b",
       url: "https://www.linkedin.com/learning/certificates/ceebd8bddc157bc772f3c0d83c4996e25291b9498be71fc31077745234c5020b"
     },
@@ -25,7 +25,7 @@ const Certificate = () => {
       title: "Certificate 3",
       issuer: "LinkedIn Learning",
       date: "March 2023",
-      image: "/certificates/nodejs-essential.jpg",
+      image: "/cert3.jpeg",
       credentialId: "763b0003b3a8da03278b9dbce9dc47f4972e996d8fa3421e0a1db396c976d8d6",
       url: "https://www.linkedin.com/learning/certificates/763b0003b3a8da03278b9dbce9dc47f4972e996d8fa3421e0a1db396c976d8d6"
     },
@@ -34,9 +34,27 @@ const Certificate = () => {
       title: "Certificate 4",
       issuer: "LinkedIn Learning",
       date: "February 2023",
-      image: "/certificates/learning-redux.jpg",
+      image: "/cert4.jpeg",
       credentialId: "2edb31d788d98222a4922153f27f755dc90bba1174a01544bfaf54e4b086bbd5",
       url: "https://www.linkedin.com/learning/certificates/2edb31d788d98222a4922153f27f755dc90bba1174a01544bfaf54e4b086bbd5"
+    },
+    {
+      id: 5,
+      title: "Certificate 5",
+      issuer: "LinkedIn Learning",
+      date: "January 2023",
+      image: "/cert5.jpeg",
+      credentialId: "9a4731fe429b2a4fdb9bcbd492b5d38f5f070ebac3705523777cf1a0bd92e33c",
+      url: "https://www.linkedin.com/learning/certificates/9a4731fe429b2a4fdb9bcbd492b5d38f5f070ebac3705523777cf1a0bd92e33c"
+    },
+    {
+      id: 6,
+      title: "Certificate 6",
+      issuer: "LinkedIn Learning",
+      date: "December 2022",
+      image: "/cert6.jpeg",
+      credentialId: "9aa4faf2e5684ec04f12e5a2a64445cf2f9ffea65fc580e13e0116e44b2349af",
+      url: "https://www.linkedin.com/learning/certificates/9aa4faf2e5684ec04f12e5a2a64445cf2f9ffea65fc580e13e0116e44b2349af"
     }
   ]);
 
