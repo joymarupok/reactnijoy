@@ -6,6 +6,7 @@ import Experience from './components/Experience'
 import Projects from './components/Projects'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
+import Certificate from './components/Certificate'
 import './App.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/certificate" element={<Certificate />} />
         </Routes>
       </div>
     </Router>
